@@ -1,0 +1,144 @@
+a:link {
+	color: rgb(204,102,153);
+}
+a:visited {
+	color: rgb(102,153,204);
+}
+li {
+	color: rgb(204,102,153);
+	font-size: small;
+	margin-left: 25px;
+}
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.heading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: rgb(102,153,204);
+	font-size: large;
+}
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: rgb(0,51,102);
+	font-size: small;
+	margin: 5px 0px 5px 10px;
+}
+.listText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: rgb(0,51,102);
+	font-size: small;
+	margin: 5px 0px 5px 0px;
+	vertical-align: middle;
+}
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 40px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: x-small;
+}
+.menuBar {
+	background-color: rgb(192,192,192);
+	border: solid rgb(0,0,0) 1px;
+	width: 100%;
+}
+.menuHead {
+	color: rgb(0,0,0);
+	background: rgb(192,192,192);
+	width: 1%;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+	border: solid rgb(192,192,192) 1px;
+}
+.menuHeadOver {
+	color: rgb(0,0,0);
+	background: rgb(255,255,255);
+	width: 1%;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+	border: solid rgb(0,0,0) 1px;
+	cursor: pointer;
+}
+.submenu {
+	position: absolute;
+	visibility: hidden;
+	color: rgb(0,51,102);
+	background-color: rgb(212,223,243);
+	border: solid rgb(0,0,0) 1px;
+	margin: 0px;
+	padding: 0px;
+}
+.menuItem {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;	
+	color: rgb(0,51,102);
+	background-color: rgb(212,223,243);
+	margin: 0px;
+	padding: 0px;
+}
+.menuItemOver {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: rgb(0,102,204);
+	background: rgb(190,198,223);
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+}
+.layoutTable {
+	border: solid rgb(0,51,102) 1px;
+	margin-left: 40px;
+	border-collapse: collapse;
+}
+.layoutContentCell {
+	vertical-align: text-top;
+	padding: 15px 20px 0px 20px;
+}
+.layoutBlueBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: rgb(0,51,102);
+	border: solid rgb(0,51,102) 1px;
+	background-color: rgb(212,223,243);
+	font-size: small;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding: 5px 8px 5px 8px;
+	right: 100%;
+}
+.compact {
+	padding: 0px;
+	border-collapse: collapse;
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: none;
+	margin: 0px;
+	vertical-align: top;
+}
+
+.compact tr {
+	padding: 0px;
+	border-collapse: collapse;
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: none;
+	margin: 0px;
+}
+.compact td {
+	padding: 0px;
+	border-collapse: collapse;
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: none;
+	margin: 0px;
+}
+.compact img {
+	display: block;
+}
